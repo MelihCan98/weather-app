@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:  linear-gradient(rgb(0 0 0 / 60%) 0 0), url(img.jpg) no-repeat;;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(245, 172, 36);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.btn {
+    width: 250px;
+    font-size: 1.2rem;
+    padding: 5px;
+    border: 1px solid rgb(245, 172, 36);
+    color: white;
+    background: none;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.btn:hover {
+    background-color: rgb(245, 172, 36);
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
+
+::placeholder {
+    color: whitesmoke;
+
+}
+
+.inputText {
+    margin-top: 10px;
+    width: 600px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 1.4rem;
+    border-bottom: 3px solid rgb(245, 172, 36);
+
+}
+
+.info {
+    margin: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.info p {
+    margin-top: 20px;
+}
+
+.genelDeger {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.genelDeger .fa-circle {
+    font-size: 22px;
+    transform: translate(10px, 25px);
+
+}
+
+.genelDeger .fa-c {
+    transform: translate(10px, 25px);
+    font-size: 4rem;
+}
+
+#sicaklik {
+
+    font-size: 4rem;
+}
+
+.his {
+    display: flex;
+    justify-content: center;
+}
+
+.his .fa-c {
+    font-size: 2rem;
+    transform: translate(10px, 25px);
+}
+
+.his .fa-circle {
+    font-size: 1rem;
+    transform: translate(10px, 20px);
+}
+
+.forecast {
+    margin: 40px auto;
+    max-width: 900px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 16px;
+    padding: 24px 16px;
+    color: #fff;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+}
+
+.forecast h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 2rem;
+    color: rgb(245, 172, 36);
+    letter-spacing: 1px;
+}
+
+#forecast-list {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    background: rgba(245, 172, 36, 0.15);
+    border: 1.5px solid rgb(245, 172, 36);
+    border-radius: 12px;
+    padding: 18px 12px;
+    min-width: 120px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.forecast-card:hover {
+    transform: scale(1.06);
+    background: rgba(245, 172, 36, 0.25);
+}
+
+.forecast-card img {
+    width: 60px;
+    height: 60px;
+    margin: 8px 0;
+}
+
+.forecast-card div:first-child {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+    color: #fff;
+}
+
+.forecast-card div:nth-child(3) {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(245, 172, 36);
+    margin-bottom: 4px;
+}
+
+.forecast-card div:last-child {
+    font-size: 1rem;
+    color: #fff;
+}

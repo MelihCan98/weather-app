@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Hava Durumu Uygulaması</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form">
+    <input type="text" class="inputText" placeholder="Şehir giriniz..." />
+  </div>
+  <div class="btnDiv">
+    <button class="btn">Hava Durumunu Getir</button>
+  </div>
+  <div class="info">
+    <p id="sehir">Şehir,Ülke</p>
+    <div class="genelDeger">
+      <p id="sicaklik">--</p><i class="fa-regular fa-circle"></i><i class="fa-solid fa-c"></i>
+    </div>
+    <p id="havaDurumu">Hava Durumu</p>
+    <div class="his">
+      <p id="hissedilen">Hissedilen</p><i class="fa-regular fa-circle"></i><i class="fa-solid fa-c"></i>
+    </div>
+  </div>
+  <!-- 5 Günlük Tahmin Alanı -->
+  <div class="forecast">
+    <h2>5 Günlük Tahmin</h2>
+    <div id="forecast-list">
+      <!-- Tahmin kartları buraya eklenecek -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
